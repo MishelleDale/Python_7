@@ -127,9 +127,3 @@ def delete(id=''):
             writer.writerow(row)
 
 
-def get_token():
-    file = open('token.csv', 'r')
-    for i in file:
-        token = i
-    file.close()
-    return token
